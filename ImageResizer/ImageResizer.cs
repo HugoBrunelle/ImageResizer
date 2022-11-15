@@ -16,8 +16,9 @@ namespace ImageResizer
             } 
             catch(Exception e)
             {
-                Console.WriteLine("Could'nt process the images");
-                Console.WriteLine(e.Message);
+                Console.WriteLine("\tCould'nt process the images");
+                Console.WriteLine("\t" + e.Message);
+                Console.ReadKey();
             }
         }
 
