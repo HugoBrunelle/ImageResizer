@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageResizer": {
+      "commandName": "Project",
+      "commandLineArgs": "Orient 500 333"
+    }
+  }
+}
